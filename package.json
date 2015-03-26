@@ -1,0 +1,29 @@
+{
+  "name": "site-extractor",
+  "version": "0.0.1",
+  "description": "A tool for building a static site of all documents in an index",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infospace/keyword-discovery-hosting"
+  },
+  "keywords": [
+    "elasticsearch"
+  ],
+  "author": "Tony Heupel tony.heupel@infospace.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infospace/keyword-discovery-hosting/issues"
+  },
+  "homepage": "https://github.com/infospace/keyword-discovery-hosting",
+  "dependencies": {
+    "elasticsearch": "~3.1",
+    "argparse": "~0.1",
+    "mkdirp": "~0.5",
+    "async": "~0.9",
+    "cheerio": "~0.19"
+  }
+}
